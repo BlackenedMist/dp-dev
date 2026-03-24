@@ -1,5 +1,4 @@
-FROM ibmcom/datapower:beta
-
+FROM icr.io/cpopen/datapower/datapower-limited:10.6.6.0
 ENV  DATAPOWER_ACCEPT_LICENSE=true \
      DATAPOWER_WORKER_THREADS=2 \
      DATAPOWER_LOG_COLOR=false
